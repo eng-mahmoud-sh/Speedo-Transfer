@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="signCountryTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="signCountryTableViewCell" rowHeight="52" id="KGk-i7-Jjw" customClass="signCountryTableViewCell" customModule="Speedo_Transfer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="united states" translatesAutoresizingMaskIntoConstraints="NO" id="EK8-Hs-tO2">
+                        <rect key="frame" x="5" y="14" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="xK2-ww-oi4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fk-YW-cB3">
+                        <rect key="frame" x="35" y="16" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.4392156862745098" green="0.43137254901960786" blue="0.42352941176470588" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="united states" translatesAutoresizingMaskIntoConstraints="NO" id="GJe-hs-io8">
+                        <rect key="frame" x="288" y="16" width="20" height="20"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EK8-Hs-tO2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="8tv-Uu-T2k"/>
+                    <constraint firstItem="1fk-YW-cB3" firstAttribute="centerY" secondItem="EK8-Hs-tO2" secondAttribute="centerY" id="KdG-eL-oUb"/>
+                    <constraint firstAttribute="trailing" secondItem="GJe-hs-io8" secondAttribute="trailing" constant="12" id="hNu-Xe-UO7"/>
+                    <constraint firstItem="1fk-YW-cB3" firstAttribute="leading" secondItem="EK8-Hs-tO2" secondAttribute="trailing" constant="6" id="jFN-l1-pq5"/>
+                    <constraint firstAttribute="bottom" secondItem="EK8-Hs-tO2" secondAttribute="bottom" constant="14" id="o7T-Vj-Ey3"/>
+                    <constraint firstItem="1fk-YW-cB3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-22.5" id="qHu-Py-x6a"/>
+                    <constraint firstItem="EK8-Hs-tO2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-11" id="uYd-mS-KJI"/>
+                    <constraint firstItem="GJe-hs-io8" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.0625" id="yez-zn-Yrh"/>
+                    <constraint firstItem="GJe-hs-io8" firstAttribute="centerY" secondItem="1fk-YW-cB3" secondAttribute="centerY" id="yti-RT-Weg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellImg" destination="EK8-Hs-tO2" id="iZs-ir-td2"/>
+                <outlet property="cellLabel" destination="1fk-YW-cB3" id="zed-Dg-orK"/>
+                <outlet property="checkMark" destination="GJe-hs-io8" id="1K2-3M-r6m"/>
+            </connections>
+            <point key="canvasLocation" x="103.81679389312977" y="16.901408450704228"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="united states" width="24" height="24"/>
+    </resources>
+</document>

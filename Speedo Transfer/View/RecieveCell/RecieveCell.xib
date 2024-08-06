@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecieveCell" rowHeight="124" id="KGk-i7-Jjw" customClass="RecieveCell" customModule="Speedo_Transfer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="drC-aO-5wQ">
+                        <rect key="frame" x="16" y="16" width="343.5" height="107"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receive Transaction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXr-Bq-ccV">
+                                <rect key="frame" x="83" y="11" width="153" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8Sk-hj-NAX"/>
+                                    <constraint firstAttribute="width" constant="153" id="e7U-2z-Lt5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="FavouriteWordColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recieveNotification" translatesAutoresizingMaskIntoConstraints="NO" id="LsR-DI-Fvl">
+                                <rect key="frame" x="8" y="16" width="56.5" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56.659999999999997" id="4pH-7d-MO8"/>
+                                    <constraint firstAttribute="height" constant="54" id="rlv-Z9-nRU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have received 1000 USD from Asmaa Dosuky 1234 xxx" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHK-Zf-TiT">
+                                <rect key="frame" x="83" y="32" width="255" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="254.84" id="QCd-EZ-IVM"/>
+                                    <constraint firstAttribute="height" constant="36" id="dSU-gE-81C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 Jul 2024 09:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6A-al-IRB">
+                                <rect key="frame" x="83" y="68" width="125" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="Kl9-Ov-yCt"/>
+                                    <constraint firstAttribute="width" constant="125" id="aXa-w6-owc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" name="AccountColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="FavCellColor"/>
+                        <constraints>
+                            <constraint firstItem="LsR-DI-Fvl" firstAttribute="leading" secondItem="drC-aO-5wQ" secondAttribute="leading" constant="8" id="2Hh-vx-WYJ"/>
+                            <constraint firstAttribute="height" constant="107" id="AUo-Og-mkz"/>
+                            <constraint firstItem="hHK-Zf-TiT" firstAttribute="leading" secondItem="sXr-Bq-ccV" secondAttribute="leading" id="M9l-9m-DmP"/>
+                            <constraint firstItem="hHK-Zf-TiT" firstAttribute="top" secondItem="sXr-Bq-ccV" secondAttribute="bottom" id="Nsp-PL-w63"/>
+                            <constraint firstItem="LsR-DI-Fvl" firstAttribute="top" secondItem="drC-aO-5wQ" secondAttribute="top" constant="16" id="RGc-oa-5hb"/>
+                            <constraint firstItem="v6A-al-IRB" firstAttribute="top" secondItem="hHK-Zf-TiT" secondAttribute="bottom" id="YZl-ks-Nxi"/>
+                            <constraint firstItem="v6A-al-IRB" firstAttribute="leading" secondItem="hHK-Zf-TiT" secondAttribute="leading" id="kFV-nS-fdx"/>
+                            <constraint firstItem="sXr-Bq-ccV" firstAttribute="leading" secondItem="LsR-DI-Fvl" secondAttribute="trailing" constant="18.5" id="r2S-2d-zqA"/>
+                            <constraint firstItem="sXr-Bq-ccV" firstAttribute="centerY" secondItem="LsR-DI-Fvl" secondAttribute="centerY" constant="-21.5" id="wpi-q9-ZPC"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                <color key="value" name="FavCellColor"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="drC-aO-5wQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15.75" id="KNo-iN-iES"/>
+                    <constraint firstItem="drC-aO-5wQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Nvj-Zs-KpF"/>
+                    <constraint firstItem="drC-aO-5wQ" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.916" id="Uxb-4X-MQH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="DateLabel" destination="v6A-al-IRB" id="VrW-W6-iFV"/>
+                <outlet property="RecieveCellView" destination="drC-aO-5wQ" id="DO9-Yy-QwS"/>
+                <outlet property="RecieveTransactionLabel" destination="sXr-Bq-ccV" id="1ev-sw-C2g"/>
+                <outlet property="RecievedImage" destination="LsR-DI-Fvl" id="cFW-AT-ueL"/>
+                <outlet property="TheRecievedLabel" destination="hHK-Zf-TiT" id="d3n-8X-Lde"/>
+            </connections>
+            <point key="canvasLocation" x="-690.57971014492762" y="-58.928571428571423"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="recieveNotification" width="77.5" height="74"/>
+        <namedColor name="AccountColor">
+            <color red="0.53725490196078429" green="0.53333333333333333" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="FavCellColor">
+            <color red="0.95294117647058818" green="0.9137254901960784" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="FavouriteWordColor">
+            <color red="0.14117647058823529" green="0.13333333333333333" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

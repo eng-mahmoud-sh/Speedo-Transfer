@@ -1,0 +1,24 @@
+PODS:
+  - FittedSheets (2.6.1)
+  - IQKeyboardManagerSwift (7.0.0)
+  - OTPFieldView (1.0.1)
+
+DEPENDENCIES:
+  - FittedSheets
+  - IQKeyboardManagerSwift (= 7.0.0)
+  - OTPFieldView
+
+SPEC REPOS:
+  trunk:
+    - FittedSheets
+    - IQKeyboardManagerSwift
+    - OTPFieldView
+
+SPEC CHECKSUMS:
+  FittedSheets: 37e35f105c531f3845075f1788dd8517a35315c4
+  IQKeyboardManagerSwift: bd69f3a49f6ead9cb6ce17723cf0c6c9b948d83e
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+
+PODFILE CHECKSUM: 8232bead695527ac2bb1ad1c4afdc7b199c331bd
+
+COCOAPODS: 1.15.2

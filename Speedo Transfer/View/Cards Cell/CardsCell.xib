@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cardCell" rowHeight="123" id="pYE-b7-KLF" userLabel="CardsCell" customClass="CardsCell" customModule="Speedo_Transfer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="123"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pYE-b7-KLF" id="D3g-pX-bo5">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="123"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tpu-Ap-B8L">
+                        <rect key="frame" x="16" y="16" width="343" height="91"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asmaa Dosuky" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKB-QC-uvP">
+                                <rect key="frame" x="72" y="16" width="141" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="JmC-8H-wSk"/>
+                                    <constraint firstAttribute="height" constant="24" id="Wet-BW-hmt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" name="titleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account xxxx7890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fc7-pB-D6A">
+                                <rect key="frame" x="71.999999999999986" y="48" width="134.66666666666663" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" name="title2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bankIcon" translatesAutoresizingMaskIntoConstraints="NO" id="hyh-2P-XlE">
+                                <rect key="frame" x="16" y="20" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="bS3-sx-rKL"/>
+                                    <constraint firstAttribute="height" constant="48" id="uCn-ui-rtx"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dw7-dP-2cy">
+                                <rect key="frame" x="281" y="16" width="54" height="19"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFS-ap-Gdc">
+                                        <rect key="frame" x="9.6666666666666856" y="3.6666666666666643" width="35" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" name="titleColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.8901960784313725" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="bFS-ap-Gdc" firstAttribute="centerX" secondItem="dw7-dP-2cy" secondAttribute="centerX" id="5y5-ZD-21v"/>
+                                    <constraint firstAttribute="width" constant="54" id="BJ9-4I-8DE"/>
+                                    <constraint firstItem="bFS-ap-Gdc" firstAttribute="centerY" secondItem="dw7-dP-2cy" secondAttribute="centerY" id="dFv-4d-wwg"/>
+                                    <constraint firstAttribute="height" constant="19" id="dj4-MH-rSV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" name="cellColor"/>
+                        <constraints>
+                            <constraint firstItem="hyh-2P-XlE" firstAttribute="bottom" secondItem="Fc7-pB-D6A" secondAttribute="bottom" id="2uz-za-77D"/>
+                            <constraint firstItem="Fc7-pB-D6A" firstAttribute="width" secondItem="mKB-QC-uvP" secondAttribute="width" multiplier="0.953901" id="7ER-85-VI0"/>
+                            <constraint firstItem="Fc7-pB-D6A" firstAttribute="leading" secondItem="mKB-QC-uvP" secondAttribute="leading" id="9GL-6t-RLS"/>
+                            <constraint firstAttribute="trailing" secondItem="dw7-dP-2cy" secondAttribute="trailing" constant="8" id="PfV-Ad-9Ql"/>
+                            <constraint firstItem="hyh-2P-XlE" firstAttribute="leading" secondItem="tpu-Ap-B8L" secondAttribute="leading" constant="16" id="Trg-8Q-qWh"/>
+                            <constraint firstItem="hyh-2P-XlE" firstAttribute="top" secondItem="tpu-Ap-B8L" secondAttribute="top" constant="20" id="iZD-Bj-qgs"/>
+                            <constraint firstItem="dw7-dP-2cy" firstAttribute="top" secondItem="tpu-Ap-B8L" secondAttribute="top" constant="16" id="jno-L0-eXP"/>
+                            <constraint firstItem="Fc7-pB-D6A" firstAttribute="top" secondItem="mKB-QC-uvP" secondAttribute="bottom" constant="8" symbolic="YES" id="qz3-9f-m0v"/>
+                            <constraint firstItem="Fc7-pB-D6A" firstAttribute="height" secondItem="mKB-QC-uvP" secondAttribute="height" multiplier="0.833333" id="r5g-Tu-4vq"/>
+                            <constraint firstItem="mKB-QC-uvP" firstAttribute="leading" secondItem="hyh-2P-XlE" secondAttribute="trailing" constant="8" symbolic="YES" id="yiA-Hj-bZu"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="tpu-Ap-B8L" secondAttribute="trailing" constant="16" id="jCt-wT-adH"/>
+                    <constraint firstItem="tpu-Ap-B8L" firstAttribute="leading" secondItem="D3g-pX-bo5" secondAttribute="leading" constant="16" id="qkd-oj-jqg"/>
+                    <constraint firstAttribute="bottom" secondItem="tpu-Ap-B8L" secondAttribute="bottom" constant="16" id="rDH-7V-hPo"/>
+                    <constraint firstItem="tpu-Ap-B8L" firstAttribute="top" secondItem="D3g-pX-bo5" secondAttribute="top" constant="16" id="y6R-Rg-t61"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="z8k-ne-Sti"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="113.768115942029" y="48.549107142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bankIcon" width="48" height="48"/>
+        <namedColor name="cellColor">
+            <color red="0.95294117647058818" green="0.9137254901960784" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="title2Color">
+            <color red="0.53725490196078429" green="0.53333333333333333" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="titleColor">
+            <color red="0.14117647058823529" green="0.13333333333333333" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
