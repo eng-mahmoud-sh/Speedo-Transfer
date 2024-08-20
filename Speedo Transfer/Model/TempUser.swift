@@ -12,5 +12,4 @@ struct TempUser {
     var email: String
     var password: String
     
-    
 }

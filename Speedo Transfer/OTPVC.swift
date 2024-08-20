@@ -21,18 +21,10 @@ class OTPVC: UIViewController {
         setupOTPTextField()
         setupActionButton()
     }
-    
-    
-//    @IBAction func submitRefillBtnTapped(_ sender: Any) {
-//        let accountConnected = self.storyboard?.instantiateViewController(withIdentifier: "AccountConnectedVC") as! AccountConnectedVC
-//        self.navigationController?.pushViewController(accountConnected, animated: true)
-//    }
-    
-    
+        
     func setupOTPTextField() {
         otpTextField.fieldsCount = 6
         otpTextField.fieldBorderWidth = 1
-        
         otpTextField.defaultBorderColor = UIColor(named: "OTPborderColor")!
         otpTextField.filledBorderColor = UIColor(named: "ButtonColor")!
         otpTextField.cursorColor = UIColor(named: "ButtonColor")!

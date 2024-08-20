@@ -14,11 +14,11 @@
 		1814F0A22C600B99007F6917 /* CardsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1814F0A02C600B99007F6917 /* CardsCell.xib */; };
 		1814F0A72C600C6A007F6917 /* MyCardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814F0A62C600C6A007F6917 /* MyCardsVC.swift */; };
 		1814F0AC2C6018C6007F6917 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814F0A92C6018C6007F6917 /* UserDefaultsManager.swift */; };
-		18321F622C5BA4CE007CA77C /* favouritsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18321F612C5BA4CE007CA77C /* favouritsVC.swift */; };
 		18321F642C5BA7D6007CA77C /* transferAmountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18321F632C5BA7D6007CA77C /* transferAmountVC.swift */; };
 		18321F692C5BADDB007CA77C /* favoritsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18321F682C5BADDB007CA77C /* favoritsTableViewCell.xib */; };
 		18321F6A2C5BADDB007CA77C /* favoritsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18321F672C5BADDB007CA77C /* favoritsTableViewCell.swift */; };
 		18321F6C2C5BE7CB007CA77C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18321F6B2C5BE7CB007CA77C /* HomeVC.swift */; };
+		183885572C62C07B00844635 /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183885562C62C07B00844635 /* Favourites.swift */; };
 		184F256F2C590F0A00E0061A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F256E2C590F0A00E0061A /* AppDelegate.swift */; };
 		184F25782C590F0B00E0061A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184F25772C590F0B00E0061A /* Assets.xcassets */; };
 		184F257B2C590F0B00E0061A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 184F257A2C590F0B00E0061A /* Base */; };
@@ -27,10 +27,13 @@
 		184F258E2C592BB600E0061A /* String+trimm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F258B2C592BB500E0061A /* String+trimm.swift */; };
 		184F258F2C592BB600E0061A /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F258C2C592BB500E0061A /* UIViewController+Alert.swift */; };
 		184F25942C59681000E0061A /* countrySheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F25932C59681000E0061A /* countrySheetVC.swift */; };
+		184F86452C62E56900DBE9DA /* favouritsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F86442C62E56900DBE9DA /* favouritsVC.swift */; };
 		185846AF2C5D12A600720ABE /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185846AE2C5D12A600720ABE /* LoadingVC.swift */; };
 		185846B12C5D142B00720ABE /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185846B02C5D142B00720ABE /* OTPVC.swift */; };
 		1889E27C2C59742500B07EBE /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889E27B2C59742500B07EBE /* SignupVC.swift */; };
+		189635632C62B5CA0049F2DF /* courenciesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189635622C62B5CA0049F2DF /* courenciesCell.swift */; };
 		18B0B7DD2C5A8BD80003B575 /* UiView+background2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0B7DC2C5A8BD80003B575 /* UiView+background2.swift */; };
+		18D7F4782C62A32200A24DB5 /* CurrencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7F4772C62A32200A24DB5 /* CurrencyVC.swift */; };
 		18ECFC962C6188A2001CB329 /* signInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECFC952C6188A2001CB329 /* signInVC.swift */; };
 		18ECFC992C618EF6001CB329 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECFC982C618EF6001CB329 /* SignInPresenter.swift */; };
 		18F6E2E42C598B9B00E122F6 /* secondSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6E2E32C598B9B00E122F6 /* secondSignupVC.swift */; };
@@ -84,11 +87,11 @@
 		1814F0A02C600B99007F6917 /* CardsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardsCell.xib; sourceTree = "<group>"; };
 		1814F0A62C600C6A007F6917 /* MyCardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsVC.swift; sourceTree = "<group>"; };
 		1814F0A92C6018C6007F6917 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
-		18321F612C5BA4CE007CA77C /* favouritsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favouritsVC.swift; sourceTree = "<group>"; };
 		18321F632C5BA7D6007CA77C /* transferAmountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transferAmountVC.swift; sourceTree = "<group>"; };
 		18321F672C5BADDB007CA77C /* favoritsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritsTableViewCell.swift; sourceTree = "<group>"; };
 		18321F682C5BADDB007CA77C /* favoritsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = favoritsTableViewCell.xib; sourceTree = "<group>"; };
 		18321F6B2C5BE7CB007CA77C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		183885562C62C07B00844635 /* Favourites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
 		184F256B2C590F0A00E0061A /* Speedo Transfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speedo Transfer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184F256E2C590F0A00E0061A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184F25772C590F0B00E0061A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,10 +102,13 @@
 		184F258B2C592BB500E0061A /* String+trimm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+trimm.swift"; sourceTree = "<group>"; };
 		184F258C2C592BB500E0061A /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		184F25932C59681000E0061A /* countrySheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countrySheetVC.swift; sourceTree = "<group>"; };
+		184F86442C62E56900DBE9DA /* favouritsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favouritsVC.swift; sourceTree = "<group>"; };
 		185846AE2C5D12A600720ABE /* LoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
 		185846B02C5D142B00720ABE /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
 		1889E27B2C59742500B07EBE /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		189635622C62B5CA0049F2DF /* courenciesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courenciesCell.swift; sourceTree = "<group>"; };
 		18B0B7DC2C5A8BD80003B575 /* UiView+background2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiView+background2.swift"; sourceTree = "<group>"; };
+		18D7F4772C62A32200A24DB5 /* CurrencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyVC.swift; sourceTree = "<group>"; };
 		18ECFC952C6188A2001CB329 /* signInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInVC.swift; sourceTree = "<group>"; };
 		18ECFC982C618EF6001CB329 /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
 		18F6E2E32C598B9B00E122F6 /* secondSignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondSignupVC.swift; sourceTree = "<group>"; };
@@ -191,12 +197,13 @@
 		18321F602C5BA45A007CA77C /* Transfer */ = {
 			isa = PBXGroup;
 			children = (
-				18321F612C5BA4CE007CA77C /* favouritsVC.swift */,
+				184F86442C62E56900DBE9DA /* favouritsVC.swift */,
 				18321F632C5BA7D6007CA77C /* transferAmountVC.swift */,
 				18321F6B2C5BE7CB007CA77C /* HomeVC.swift */,
 				1814F0982C5FFE96007F6917 /* NotificationVC.swift */,
 				6BB6CB702C605250001CA89E /* transferAmount2VC.swift */,
 				6BB6CB722C60525E001CA89E /* transferAmount3VC.swift */,
+				18D7F4772C62A32200A24DB5 /* CurrencyVC.swift */,
 			);
 			name = Transfer;
 			sourceTree = "<group>";
@@ -242,7 +249,7 @@
 			children = (
 				184F257C2C590F0B00E0061A /* Info.plist */,
 				184F25852C59129B00E0061A /* Shared */,
-				6B1831092C61C921000C1F95 /* APIs Model */,
+				6B1831092C61C921000C1F95 /* Model */,
 				18ECFC972C618E98001CB329 /* Presenter */,
 				6BBAC9AC2C614BD9001B40F6 /* Networking */,
 				1814F0AA2C6018C6007F6917 /* Manager */,
@@ -278,6 +285,7 @@
 			children = (
 				184F25892C59177F00E0061A /* CustomTextField.swift */,
 				18F9BB402C5E8F1700B07763 /* CustomTextField2.swift */,
+				189635622C62B5CA0049F2DF /* courenciesCell.swift */,
 				6B1831082C61B270000C1F95 /* Cards Cell */,
 				1814F09C2C5FFED4007F6917 /* RecieveCell */,
 				6B684DA82C5FE52F0036A48D /* lastTransactionTableView */,
@@ -410,16 +418,17 @@
 			path = "Cards Cell";
 			sourceTree = "<group>";
 		};
-		6B1831092C61C921000C1F95 /* APIs Model */ = {
+		6B1831092C61C921000C1F95 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				183885562C62C07B00844635 /* Favourites.swift */,
 				6BF4F7A42C61EBB30079FD42 /* TempUser.swift */,
 				6BF4F7A22C61E9D10079FD42 /* Session.swift */,
 				6BF4F7A02C61E7400079FD42 /* User.swift */,
 				6B18310A2C61C940000C1F95 /* LoginRequest.swift */,
 				6B18310C2C61C950000C1F95 /* LoginResponse.swift */,
 			);
-			path = "APIs Model";
+			path = Model;
 			sourceTree = "<group>";
 		};
 		6B684DA82C5FE52F0036A48D /* lastTransactionTableView */ = {
@@ -607,10 +616,10 @@
 				1889E27C2C59742500B07EBE /* SignupVC.swift in Sources */,
 				18B0B7DD2C5A8BD80003B575 /* UiView+background2.swift in Sources */,
 				6B18310D2C61C950000C1F95 /* LoginResponse.swift in Sources */,
-				18321F622C5BA4CE007CA77C /* favouritsVC.swift in Sources */,
 				1814F09D2C5FFED4007F6917 /* RecieveCell.swift in Sources */,
 				6B2D20222C606B1900E5088D /* SelectedCurrencyVC.swift in Sources */,
 				6BFE9EDD2C5C02C50091FFF6 /* SecondOnBoardingVC.swift in Sources */,
+				18D7F4782C62A32200A24DB5 /* CurrencyVC.swift in Sources */,
 				18F9BB3D2C5E86FD00B07763 /* HelpVC.swift in Sources */,
 				18321F6A2C5BADDB007CA77C /* favoritsTableViewCell.swift in Sources */,
 				6BBAC9B02C614BF4001B40F6 /* NetworkClientHelper.swift in Sources */,
@@ -631,6 +640,7 @@
 				6BF4F7A32C61E9D10079FD42 /* Session.swift in Sources */,
 				184F258E2C592BB600E0061A /* String+trimm.swift in Sources */,
 				18321F642C5BA7D6007CA77C /* transferAmountVC.swift in Sources */,
+				184F86452C62E56900DBE9DA /* favouritsVC.swift in Sources */,
 				18F6E2E42C598B9B00E122F6 /* secondSignupVC.swift in Sources */,
 				6BFE9ED62C5C02B10091FFF6 /* ConnectionError.swift in Sources */,
 				1814F0A12C600B99007F6917 /* CardsCell.swift in Sources */,
@@ -651,8 +661,10 @@
 				18F9BB372C5E859E00B07763 /* FavouriteListCell.swift in Sources */,
 				18F9BB412C5E8F1700B07763 /* CustomTextField2.swift in Sources */,
 				6B1831072C61AD8E000C1F95 /* TabBarController.swift in Sources */,
+				189635632C62B5CA0049F2DF /* courenciesCell.swift in Sources */,
 				6BB6CB792C6068A0001CA89E /* AccountConnectedVC.swift in Sources */,
 				184F258F2C592BB600E0061A /* UIViewController+Alert.swift in Sources */,
+				183885572C62C07B00844635 /* Favourites.swift in Sources */,
 				6BB6CB732C60525E001CA89E /* transferAmount3VC.swift in Sources */,
 				6BBAC9AE2C614BED001B40F6 /* NetworkAPIClient .swift in Sources */,
 				18ECFC962C6188A2001CB329 /* signInVC.swift in Sources */,
